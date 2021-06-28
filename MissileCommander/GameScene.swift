@@ -9,13 +9,32 @@ import SpriteKit
 
 public class GameScene: SKScene, SKPhysicsContactDelegate {
     // MARK: - Labels
-    var scoreLabel: SKLabelNode?
-    var timeLabel: SKLabelNode?
+    
+    lazy var scoreLabel: SKLabelNode = {
+        let label = SKLabelNode(fontNamed: "PressStart2P")
+        label.fontSize = 20
+        label.fontColor = SKColor.white
+        label.position = CGPoint(x: self.frame.midX, y: 440)
+        label.zPosition = 50
+        return label
+    }()
+    
+    lazy var timeLabel: SKLabelNode = {
+        let label = SKLabelNode(fontNamed: "PressStart2P")
+        label.fontSize = 20
+        label.fontColor = SKColor.white
+        label.position = CGPoint(x: self.frame.midX, y: 470)
+        label.zPosition = 50
+        let countOneSecond = SKAction.run { self.time = self.time + 1 }
+        let waitOneSecond = SKAction.wait(forDuration: 1)
+        self.run(SKAction.repeatForever(SKAction.sequence([waitOneSecond, countOneSecond])), withKey: "countSeconds")
+        return label
+    }()
     
     // MARK: - Score and Time
     private var playerScore: UInt64 = 0 {
         didSet {
-            self.scoreLabel?.text = "\(playerScore)"
+            self.scoreLabel.text = "\(playerScore)"
         }
     }
     
@@ -184,10 +203,13 @@ public class GameScene: SKScene, SKPhysicsContactDelegate {
         self.backgroundColor = .black
         self.physicsWorld.contactDelegate = self
         
-        generateTimeLabel()
-        generateScoreLabel()
+        self.addChild(self.scoreLabel)
+        self.addChild(self.timeLabel)
         generateSilos()
         generateCities()
+        
+        self.playerScore = 0
+        self.time = 0
     }
     
     // MARK: - Collision
@@ -495,13 +517,13 @@ public class GameScene: SKScene, SKPhysicsContactDelegate {
     func removeSiloFromGameScene(targetSilo: Silo) {
         guard let targetIndex = self.silos.firstIndex(of: targetSilo) else { return }
         self.silos.remove(at: targetIndex)
-//        self.siloLocation.remove(at: targetIndex)
+        self.siloLocation.remove(at: targetIndex)
     }
     
     func removeCityFromGameScene(targetCity: City) {
         guard let targetIndex = self.cities.firstIndex(of: targetCity) else { return }
         self.cities.remove(at: targetIndex)
-//        self.cityLocation.remove(at: targetIndex)
+        self.cityLocation.remove(at: targetIndex)
     }
     
     // MARK: - Game related methods
@@ -526,9 +548,9 @@ public class GameScene: SKScene, SKPhysicsContactDelegate {
         let seconds = Int(self.time - minutes * 60)
         
         if minutes > 0 {
-            self.timeLabel?.text = (seconds % 2 == 0 || alwaysDisplayColon) ? String(format: "%02d:%02d", minutes, seconds) : String(format: "%02d %02d", minutes, seconds)
+            self.timeLabel.text = (seconds % 2 == 0 || alwaysDisplayColon) ? String(format: "%02d:%02d", minutes, seconds) : String(format: "%02d %02d", minutes, seconds)
         } else {
-            self.timeLabel?.text = String(format: "%02d", seconds)
+            self.timeLabel.text = String(format: "%02d", seconds)
         }
     }
     
@@ -767,31 +789,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate {
             let enemyWarhead = EnemyWarhead(position: from, distance: distance, velocity: velocity, targetCoordinate: to, blastRange: blastRange, gameScene: self)
             addChild(enemyWarhead)
         }
-    }
-    
-    func generateScoreLabel() {
-        self.scoreLabel = SKLabelNode(fontNamed: "PressStart2P")
-        self.scoreLabel?.text = "0"
-        self.scoreLabel?.fontSize = 20
-        self.scoreLabel?.fontColor = SKColor.white
-        self.scoreLabel?.position = CGPoint(x: frame.midX, y: 440)
-        self.scoreLabel?.zPosition = 50
-        self.addChild(scoreLabel!)
-    }
-    
-    func generateTimeLabel() {
-        self.timeLabel = SKLabelNode(fontNamed: "PressStart2P")
-        self.timeLabel?.fontSize = 20
-        self.timeLabel?.fontColor = SKColor.white
-        self.timeLabel?.position = CGPoint(x: frame.midX, y: 470)
-        self.timeLabel?.zPosition = 50
-        self.addChild(timeLabel!)
-        self.time = 0
-        let countOneSecond = SKAction.run {
-            self.time = self.time + 1
-        }
-        let waitOneSecond = SKAction.wait(forDuration: 1)
-        self.run(SKAction.repeatForever(SKAction.sequence([waitOneSecond, countOneSecond])), withKey: "countSeconds")
     }
     
     func generateSilos() {

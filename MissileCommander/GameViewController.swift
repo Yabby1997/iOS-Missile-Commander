@@ -14,17 +14,15 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let skView = SKView(frame: CGRect(x: 0, y: 0, width: 600, height: 500))
-    
         let gameScene = GameScene(size: CGSize(width: 600, height: 500))
         gameScene.scaleMode = .aspectFit
-        skView.presentScene(gameScene)
-        skView.preferredFramesPerSecond = 60
-        skView.showsFPS = true
-        skView.showsNodeCount = true
-        skView.presentScene(gameScene)
         
-        self.view.addSubview(skView)
+        if let view = self.view as? SKView {
+           view.presentScene(gameScene)
+           view.preferredFramesPerSecond = 60
+           view.showsFPS = true
+           view.showsNodeCount = true
+        }
     }
     
     override var shouldAutorotate: Bool {

@@ -11,6 +11,7 @@ extension Array where Element: Hashable {
 }
 
 func startNewGame() {
+    print("!!!")
     let skView = SKView(frame: CGRect(x: 0, y: 0, width: 600, height: 500))
 
     let gameScene = GameScene(size: CGSize(width: 600, height: 500))
