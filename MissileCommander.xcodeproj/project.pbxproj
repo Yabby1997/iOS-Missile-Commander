@@ -14,6 +14,59 @@
 		1DB9EBDF26898BD1006A135A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EBDE26898BD1006A135A /* GameViewController.swift */; };
 		1DB9EBE226898BD1006A135A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBE026898BD1006A135A /* Main.storyboard */; };
 		1DB9EBE426898BD2006A135A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBE326898BD2006A135A /* Assets.xcassets */; };
+		1DB9EC3226899003006A135A /* friendly_explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF326899003006A135A /* friendly_explosion.wav */; };
+		1DB9EC3326899003006A135A /* hostile_explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF426899003006A135A /* hostile_explosion.wav */; };
+		1DB9EC3426899003006A135A /* launch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF526899003006A135A /* launch.wav */; };
+		1DB9EC3526899003006A135A /* item.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF626899003006A135A /* item.wav */; };
+		1DB9EC3626899003006A135A /* warhead_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF826899003006A135A /* warhead_11.png */; };
+		1DB9EC3726899003006A135A /* city_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBF926899003006A135A /* city_item.png */; };
+		1DB9EC3826899003006A135A /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFA26899003006A135A /* city.png */; };
+		1DB9EC3926899003006A135A /* explosion_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFB26899003006A135A /* explosion_300.png */; };
+		1DB9EC3A26899003006A135A /* warhead_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFC26899003006A135A /* warhead_7.png */; };
+		1DB9EC3B26899003006A135A /* explosion_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFD26899003006A135A /* explosion_40.png */; };
+		1DB9EC3C26899003006A135A /* warhead_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFE26899003006A135A /* warhead_5.png */; };
+		1DB9EC3D26899003006A135A /* explosion_55.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EBFF26899003006A135A /* explosion_55.png */; };
+		1DB9EC3E26899003006A135A /* explosion_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0026899003006A135A /* explosion_100.png */; };
+		1DB9EC3F26899003006A135A /* explosion_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0126899003006A135A /* explosion_45.png */; };
+		1DB9EC4026899003006A135A /* blast_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0226899003006A135A /* blast_item.png */; };
+		1DB9EC4126899003006A135A /* explosion_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0326899003006A135A /* explosion_50.png */; };
+		1DB9EC4226899003006A135A /* silo_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0426899003006A135A /* silo_3.png */; };
+		1DB9EC4326899003006A135A /* silo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0526899003006A135A /* silo_2.png */; };
+		1DB9EC4426899003006A135A /* silo_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0626899003006A135A /* silo_0.png */; };
+		1DB9EC4526899003006A135A /* explosion_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0726899003006A135A /* explosion_60.png */; };
+		1DB9EC4626899003006A135A /* silo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0826899003006A135A /* silo_1.png */; };
+		1DB9EC4726899003006A135A /* reload_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0926899003006A135A /* reload_item.png */; };
+		1DB9EC4826899003006A135A /* silo_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0A26899003006A135A /* silo_5.png */; };
+		1DB9EC4926899003006A135A /* explosion_65.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0B26899003006A135A /* explosion_65.png */; };
+		1DB9EC4A26899003006A135A /* velocity_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0C26899003006A135A /* velocity_item.png */; };
+		1DB9EC4B26899003006A135A /* silo_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0D26899003006A135A /* silo_4.png */; };
+		1DB9EC4C26899003006A135A /* ammunition_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0E26899003006A135A /* ammunition_item.png */; };
+		1DB9EC4D26899003006A135A /* duration_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC0F26899003006A135A /* duration_item.png */; };
+		1DB9EC4E26899003006A135A /* bomber.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1026899003006A135A /* bomber.png */; };
+		1DB9EC4F26899003006A135A /* aim.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1126899003006A135A /* aim.png */; };
+		1DB9EC5026899003006A135A /* silo_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1226899003006A135A /* silo_item.png */; };
+		1DB9EC5126899003006A135A /* explosion_150.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1326899003006A135A /* explosion_150.png */; };
+		1DB9EC5226899003006A135A /* PressStart2P-vaV7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1526899003006A135A /* PressStart2P-vaV7.ttf */; };
+		1DB9EC5326899003006A135A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1826899003006A135A /* City.swift */; };
+		1DB9EC5426899003006A135A /* Silo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1926899003006A135A /* Silo.swift */; };
+		1DB9EC5526899003006A135A /* Bomber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1B26899003006A135A /* Bomber.swift */; };
+		1DB9EC5626899003006A135A /* EnemyWarhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1D26899003006A135A /* EnemyWarhead.swift */; };
+		1DB9EC5726899003006A135A /* Warhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1E26899003006A135A /* Warhead.swift */; };
+		1DB9EC5826899003006A135A /* PlayerWarhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC1F26899003006A135A /* PlayerWarhead.swift */; };
+		1DB9EC5926899003006A135A /* VelocityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2126899003006A135A /* VelocityItem.swift */; };
+		1DB9EC5A26899003006A135A /* AmmunitionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2226899003006A135A /* AmmunitionItem.swift */; };
+		1DB9EC5B26899003006A135A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2326899003006A135A /* Item.swift */; };
+		1DB9EC5C26899003006A135A /* SiloItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2426899003006A135A /* SiloItem.swift */; };
+		1DB9EC5D26899003006A135A /* DurationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2526899003006A135A /* DurationItem.swift */; };
+		1DB9EC5E26899003006A135A /* BlastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2626899003006A135A /* BlastItem.swift */; };
+		1DB9EC5F26899003006A135A /* ReloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2726899003006A135A /* ReloadItem.swift */; };
+		1DB9EC6026899003006A135A /* CityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2826899003006A135A /* CityItem.swift */; };
+		1DB9EC6126899003006A135A /* EnemyExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2A26899003006A135A /* EnemyExplosion.swift */; };
+		1DB9EC6226899003006A135A /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2B26899003006A135A /* Explosion.swift */; };
+		1DB9EC6326899003006A135A /* PlayerExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2C26899003006A135A /* PlayerExplosion.swift */; };
+		1DB9EC6426899003006A135A /* PlayerAim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC2E26899003006A135A /* PlayerAim.swift */; };
+		1DB9EC6526899003006A135A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC3026899003006A135A /* Constants.swift */; };
+		1DB9EC6626899003006A135A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9EC3126899003006A135A /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +79,59 @@
 		1DB9EBE126898BD1006A135A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DB9EBE326898BD2006A135A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB9EBE526898BD2006A135A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB9EBF326899003006A135A /* friendly_explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = friendly_explosion.wav; sourceTree = "<group>"; };
+		1DB9EBF426899003006A135A /* hostile_explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hostile_explosion.wav; sourceTree = "<group>"; };
+		1DB9EBF526899003006A135A /* launch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = launch.wav; sourceTree = "<group>"; };
+		1DB9EBF626899003006A135A /* item.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = item.wav; sourceTree = "<group>"; };
+		1DB9EBF826899003006A135A /* warhead_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warhead_11.png; sourceTree = "<group>"; };
+		1DB9EBF926899003006A135A /* city_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city_item.png; sourceTree = "<group>"; };
+		1DB9EBFA26899003006A135A /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		1DB9EBFB26899003006A135A /* explosion_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_300.png; sourceTree = "<group>"; };
+		1DB9EBFC26899003006A135A /* warhead_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warhead_7.png; sourceTree = "<group>"; };
+		1DB9EBFD26899003006A135A /* explosion_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_40.png; sourceTree = "<group>"; };
+		1DB9EBFE26899003006A135A /* warhead_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warhead_5.png; sourceTree = "<group>"; };
+		1DB9EBFF26899003006A135A /* explosion_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_55.png; sourceTree = "<group>"; };
+		1DB9EC0026899003006A135A /* explosion_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_100.png; sourceTree = "<group>"; };
+		1DB9EC0126899003006A135A /* explosion_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_45.png; sourceTree = "<group>"; };
+		1DB9EC0226899003006A135A /* blast_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blast_item.png; sourceTree = "<group>"; };
+		1DB9EC0326899003006A135A /* explosion_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_50.png; sourceTree = "<group>"; };
+		1DB9EC0426899003006A135A /* silo_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_3.png; sourceTree = "<group>"; };
+		1DB9EC0526899003006A135A /* silo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_2.png; sourceTree = "<group>"; };
+		1DB9EC0626899003006A135A /* silo_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_0.png; sourceTree = "<group>"; };
+		1DB9EC0726899003006A135A /* explosion_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_60.png; sourceTree = "<group>"; };
+		1DB9EC0826899003006A135A /* silo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_1.png; sourceTree = "<group>"; };
+		1DB9EC0926899003006A135A /* reload_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_item.png; sourceTree = "<group>"; };
+		1DB9EC0A26899003006A135A /* silo_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_5.png; sourceTree = "<group>"; };
+		1DB9EC0B26899003006A135A /* explosion_65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_65.png; sourceTree = "<group>"; };
+		1DB9EC0C26899003006A135A /* velocity_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = velocity_item.png; sourceTree = "<group>"; };
+		1DB9EC0D26899003006A135A /* silo_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_4.png; sourceTree = "<group>"; };
+		1DB9EC0E26899003006A135A /* ammunition_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ammunition_item.png; sourceTree = "<group>"; };
+		1DB9EC0F26899003006A135A /* duration_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration_item.png; sourceTree = "<group>"; };
+		1DB9EC1026899003006A135A /* bomber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomber.png; sourceTree = "<group>"; };
+		1DB9EC1126899003006A135A /* aim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aim.png; sourceTree = "<group>"; };
+		1DB9EC1226899003006A135A /* silo_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silo_item.png; sourceTree = "<group>"; };
+		1DB9EC1326899003006A135A /* explosion_150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion_150.png; sourceTree = "<group>"; };
+		1DB9EC1526899003006A135A /* PressStart2P-vaV7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-vaV7.ttf"; sourceTree = "<group>"; };
+		1DB9EC1826899003006A135A /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1DB9EC1926899003006A135A /* Silo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Silo.swift; sourceTree = "<group>"; };
+		1DB9EC1B26899003006A135A /* Bomber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bomber.swift; sourceTree = "<group>"; };
+		1DB9EC1D26899003006A135A /* EnemyWarhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyWarhead.swift; sourceTree = "<group>"; };
+		1DB9EC1E26899003006A135A /* Warhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warhead.swift; sourceTree = "<group>"; };
+		1DB9EC1F26899003006A135A /* PlayerWarhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerWarhead.swift; sourceTree = "<group>"; };
+		1DB9EC2126899003006A135A /* VelocityItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocityItem.swift; sourceTree = "<group>"; };
+		1DB9EC2226899003006A135A /* AmmunitionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmmunitionItem.swift; sourceTree = "<group>"; };
+		1DB9EC2326899003006A135A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1DB9EC2426899003006A135A /* SiloItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiloItem.swift; sourceTree = "<group>"; };
+		1DB9EC2526899003006A135A /* DurationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DurationItem.swift; sourceTree = "<group>"; };
+		1DB9EC2626899003006A135A /* BlastItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlastItem.swift; sourceTree = "<group>"; };
+		1DB9EC2726899003006A135A /* ReloadItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadItem.swift; sourceTree = "<group>"; };
+		1DB9EC2826899003006A135A /* CityItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityItem.swift; sourceTree = "<group>"; };
+		1DB9EC2A26899003006A135A /* EnemyExplosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyExplosion.swift; sourceTree = "<group>"; };
+		1DB9EC2B26899003006A135A /* Explosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explosion.swift; sourceTree = "<group>"; };
+		1DB9EC2C26899003006A135A /* PlayerExplosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerExplosion.swift; sourceTree = "<group>"; };
+		1DB9EC2E26899003006A135A /* PlayerAim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAim.swift; sourceTree = "<group>"; };
+		1DB9EC3026899003006A135A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1DB9EC3126899003006A135A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +164,9 @@
 		1DB9EBD526898BD1006A135A /* MissileCommander */ = {
 			isa = PBXGroup;
 			children = (
+				1DB9EBF126899003006A135A /* Resources */,
+				1DB9EC1626899003006A135A /* Sprites */,
+				1DB9EC2F26899003006A135A /* Utils */,
 				1DB9EBD626898BD1006A135A /* AppDelegate.swift */,
 				1DB9EBD826898BD1006A135A /* GameScene.sks */,
 				1DB9EBDA26898BD1006A135A /* Actions.sks */,
@@ -68,6 +177,152 @@
 				1DB9EBE526898BD2006A135A /* Info.plist */,
 			);
 			path = MissileCommander;
+			sourceTree = "<group>";
+		};
+		1DB9EBF126899003006A135A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EBF226899003006A135A /* Audio */,
+				1DB9EBF726899003006A135A /* Sprite */,
+				1DB9EC1426899003006A135A /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DB9EBF226899003006A135A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EBF326899003006A135A /* friendly_explosion.wav */,
+				1DB9EBF426899003006A135A /* hostile_explosion.wav */,
+				1DB9EBF526899003006A135A /* launch.wav */,
+				1DB9EBF626899003006A135A /* item.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1DB9EBF726899003006A135A /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EBF826899003006A135A /* warhead_11.png */,
+				1DB9EBF926899003006A135A /* city_item.png */,
+				1DB9EBFA26899003006A135A /* city.png */,
+				1DB9EBFB26899003006A135A /* explosion_300.png */,
+				1DB9EBFC26899003006A135A /* warhead_7.png */,
+				1DB9EBFD26899003006A135A /* explosion_40.png */,
+				1DB9EBFE26899003006A135A /* warhead_5.png */,
+				1DB9EBFF26899003006A135A /* explosion_55.png */,
+				1DB9EC0026899003006A135A /* explosion_100.png */,
+				1DB9EC0126899003006A135A /* explosion_45.png */,
+				1DB9EC0226899003006A135A /* blast_item.png */,
+				1DB9EC0326899003006A135A /* explosion_50.png */,
+				1DB9EC0426899003006A135A /* silo_3.png */,
+				1DB9EC0526899003006A135A /* silo_2.png */,
+				1DB9EC0626899003006A135A /* silo_0.png */,
+				1DB9EC0726899003006A135A /* explosion_60.png */,
+				1DB9EC0826899003006A135A /* silo_1.png */,
+				1DB9EC0926899003006A135A /* reload_item.png */,
+				1DB9EC0A26899003006A135A /* silo_5.png */,
+				1DB9EC0B26899003006A135A /* explosion_65.png */,
+				1DB9EC0C26899003006A135A /* velocity_item.png */,
+				1DB9EC0D26899003006A135A /* silo_4.png */,
+				1DB9EC0E26899003006A135A /* ammunition_item.png */,
+				1DB9EC0F26899003006A135A /* duration_item.png */,
+				1DB9EC1026899003006A135A /* bomber.png */,
+				1DB9EC1126899003006A135A /* aim.png */,
+				1DB9EC1226899003006A135A /* silo_item.png */,
+				1DB9EC1326899003006A135A /* explosion_150.png */,
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+		1DB9EC1426899003006A135A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC1526899003006A135A /* PressStart2P-vaV7.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1DB9EC1626899003006A135A /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC1726899003006A135A /* Buildings */,
+				1DB9EC1A26899003006A135A /* Enemy */,
+				1DB9EC1C26899003006A135A /* Warheads */,
+				1DB9EC2026899003006A135A /* Items */,
+				1DB9EC2926899003006A135A /* Effects */,
+				1DB9EC2D26899003006A135A /* Player */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		1DB9EC1726899003006A135A /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC1826899003006A135A /* City.swift */,
+				1DB9EC1926899003006A135A /* Silo.swift */,
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+		1DB9EC1A26899003006A135A /* Enemy */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC1B26899003006A135A /* Bomber.swift */,
+			);
+			path = Enemy;
+			sourceTree = "<group>";
+		};
+		1DB9EC1C26899003006A135A /* Warheads */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC1D26899003006A135A /* EnemyWarhead.swift */,
+				1DB9EC1E26899003006A135A /* Warhead.swift */,
+				1DB9EC1F26899003006A135A /* PlayerWarhead.swift */,
+			);
+			path = Warheads;
+			sourceTree = "<group>";
+		};
+		1DB9EC2026899003006A135A /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC2126899003006A135A /* VelocityItem.swift */,
+				1DB9EC2226899003006A135A /* AmmunitionItem.swift */,
+				1DB9EC2326899003006A135A /* Item.swift */,
+				1DB9EC2426899003006A135A /* SiloItem.swift */,
+				1DB9EC2526899003006A135A /* DurationItem.swift */,
+				1DB9EC2626899003006A135A /* BlastItem.swift */,
+				1DB9EC2726899003006A135A /* ReloadItem.swift */,
+				1DB9EC2826899003006A135A /* CityItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		1DB9EC2926899003006A135A /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC2A26899003006A135A /* EnemyExplosion.swift */,
+				1DB9EC2B26899003006A135A /* Explosion.swift */,
+				1DB9EC2C26899003006A135A /* PlayerExplosion.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		1DB9EC2D26899003006A135A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC2E26899003006A135A /* PlayerAim.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		1DB9EC2F26899003006A135A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9EC3026899003006A135A /* Constants.swift */,
+				1DB9EC3126899003006A135A /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +382,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB9EC3826899003006A135A /* city.png in Resources */,
+				1DB9EC3B26899003006A135A /* explosion_40.png in Resources */,
+				1DB9EC5126899003006A135A /* explosion_150.png in Resources */,
+				1DB9EC4926899003006A135A /* explosion_65.png in Resources */,
+				1DB9EC4B26899003006A135A /* silo_4.png in Resources */,
+				1DB9EC3226899003006A135A /* friendly_explosion.wav in Resources */,
+				1DB9EC4E26899003006A135A /* bomber.png in Resources */,
+				1DB9EC3326899003006A135A /* hostile_explosion.wav in Resources */,
+				1DB9EC4226899003006A135A /* silo_3.png in Resources */,
+				1DB9EC4826899003006A135A /* silo_5.png in Resources */,
+				1DB9EC4726899003006A135A /* reload_item.png in Resources */,
 				1DB9EBE226898BD1006A135A /* Main.storyboard in Resources */,
+				1DB9EC3526899003006A135A /* item.wav in Resources */,
+				1DB9EC4426899003006A135A /* silo_0.png in Resources */,
+				1DB9EC4626899003006A135A /* silo_1.png in Resources */,
+				1DB9EC3E26899003006A135A /* explosion_100.png in Resources */,
+				1DB9EC4526899003006A135A /* explosion_60.png in Resources */,
 				1DB9EBD926898BD1006A135A /* GameScene.sks in Resources */,
+				1DB9EC4126899003006A135A /* explosion_50.png in Resources */,
+				1DB9EC3426899003006A135A /* launch.wav in Resources */,
+				1DB9EC5026899003006A135A /* silo_item.png in Resources */,
+				1DB9EC4026899003006A135A /* blast_item.png in Resources */,
 				1DB9EBE426898BD2006A135A /* Assets.xcassets in Resources */,
+				1DB9EC4F26899003006A135A /* aim.png in Resources */,
+				1DB9EC3C26899003006A135A /* warhead_5.png in Resources */,
+				1DB9EC3726899003006A135A /* city_item.png in Resources */,
+				1DB9EC3F26899003006A135A /* explosion_45.png in Resources */,
+				1DB9EC3A26899003006A135A /* warhead_7.png in Resources */,
+				1DB9EC4D26899003006A135A /* duration_item.png in Resources */,
+				1DB9EC4C26899003006A135A /* ammunition_item.png in Resources */,
+				1DB9EC4A26899003006A135A /* velocity_item.png in Resources */,
+				1DB9EC4326899003006A135A /* silo_2.png in Resources */,
+				1DB9EC5226899003006A135A /* PressStart2P-vaV7.ttf in Resources */,
+				1DB9EC3626899003006A135A /* warhead_11.png in Resources */,
+				1DB9EC3D26899003006A135A /* explosion_55.png in Resources */,
 				1DB9EBDB26898BD1006A135A /* Actions.sks in Resources */,
+				1DB9EC3926899003006A135A /* explosion_300.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +429,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB9EC6226899003006A135A /* Explosion.swift in Sources */,
+				1DB9EC6526899003006A135A /* Constants.swift in Sources */,
+				1DB9EC6126899003006A135A /* EnemyExplosion.swift in Sources */,
+				1DB9EC5E26899003006A135A /* BlastItem.swift in Sources */,
+				1DB9EC6426899003006A135A /* PlayerAim.swift in Sources */,
+				1DB9EC5F26899003006A135A /* ReloadItem.swift in Sources */,
+				1DB9EC5D26899003006A135A /* DurationItem.swift in Sources */,
 				1DB9EBDD26898BD1006A135A /* GameScene.swift in Sources */,
 				1DB9EBDF26898BD1006A135A /* GameViewController.swift in Sources */,
+				1DB9EC5426899003006A135A /* Silo.swift in Sources */,
+				1DB9EC5326899003006A135A /* City.swift in Sources */,
+				1DB9EC5B26899003006A135A /* Item.swift in Sources */,
+				1DB9EC5726899003006A135A /* Warhead.swift in Sources */,
+				1DB9EC5626899003006A135A /* EnemyWarhead.swift in Sources */,
+				1DB9EC5826899003006A135A /* PlayerWarhead.swift in Sources */,
+				1DB9EC6626899003006A135A /* Utils.swift in Sources */,
+				1DB9EC5526899003006A135A /* Bomber.swift in Sources */,
+				1DB9EC6026899003006A135A /* CityItem.swift in Sources */,
 				1DB9EBD726898BD1006A135A /* AppDelegate.swift in Sources */,
+				1DB9EC5C26899003006A135A /* SiloItem.swift in Sources */,
+				1DB9EC5A26899003006A135A /* AmmunitionItem.swift in Sources */,
+				1DB9EC6326899003006A135A /* PlayerExplosion.swift in Sources */,
+				1DB9EC5926899003006A135A /* VelocityItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
